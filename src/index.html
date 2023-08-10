@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" class="loading">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.png" />
+  <link rel="stylesheet" href="./css/index.scss" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elowen Films</title>
+</head>
+
+<body data-barba="wrapper">
+  <pug src="./pug/cursor.pug" />
+  <pug src="./pug/header.pug" />
+  <pug src="./pug/slider.pug" />
+  <pug src="./pug/footer.pug" />
+  <pug src="./pug/transition.pug" />
+  <main data-barba="container" data-barba-namespace="home">
+    <div class="home" id="page__wrapper" data-page="home"></div>
+  </main>
+  <canvas id="webgl"></canvas>
+  <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>

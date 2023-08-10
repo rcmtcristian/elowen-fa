@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" style="--main-color: #e9c4bc" class="loading">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.png" />
+  <link rel="stylesheet" href="../css/index.scss" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>seraphine | elowen Films</title>
+</head>
+
+<body data-barba="wrapper">
+  <pug src="../pug/cursor.pug" />
+  <pug src="../pug/header.pug" />
+  <pug src="../pug/slider.pug" />
+  <pug src="../pug/footer.pug" />
+  <pug src="../pug/transition.pug" />
+  <main data-barba="container" data-barba-namespace="work" data-index="5" data-client="seraphine"
+    data-director="Evangeline Thorne" data-category="Branding" data-location="Tromsø Municipality, Norway"
+    data-industry="Wearables" data-year="2020">
+    <div id="page__wrapper" data-page="work" data-bg="#04142D" data-color="#E9C4BC" data-index="5">
+      <div class="video">
+        <div class="video__player"></div>
+        <a href="/" class="video__control"></a>
+      </div>
+    </div>
+  </main>
+  <canvas id="webgl"></canvas>
+  <script type="module" src="../js/app.js"></script>
+</body>
+
+</html>
